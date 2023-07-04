@@ -1,4 +1,4 @@
-## here is my perosnal website 
+## here is my personal website (stay fab)
 to run the website run the following 
 
 ```
