@@ -32,17 +32,17 @@ h1 {
 
   position: relative;
   bottom: 18px;
-  color: #940b0b;
+  color: black;
   margin: 0;
   text-transform: uppercase;
 }
-h2 {
+/* h2 {
   font-size: 40;
   font-weight: 400;
   margin-bottom: 28;
-  height: 40px;
-}
-.aboutpage {
+  height: 40px; 
+} */
+.button1 {
   /* align-items: flex-start; */
   /* background-clip: border-box; */
   background-color: rgb(25, 25, 25);
@@ -108,17 +108,15 @@ h2 {
   /* position: relative;
   height: 100%; */
 }
-.aboutpage {
+.button1 {
   transition-duration: 0.1s;
+  position: relative;
+  bottom: 35px;
 }
-.aboutpage:hover {
+.button1:hover {
   background-color: white;
   color: black;
 }
-/* .gettoknowme {
-  position: absolute;
-  bottom: 0;
-} */
 .centredcontent {
   text-align: center;
 }
