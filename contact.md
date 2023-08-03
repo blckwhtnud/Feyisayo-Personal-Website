@@ -6,4 +6,4 @@ layout: layout
 
 ## Lets Stay in Touch:
 
-<input type=text/>
+<label>Fabulous <input type=text/> </label>
