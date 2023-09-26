@@ -5,7 +5,7 @@ body {
   font-family: Bitter;
 }
 html {
-  background-color: #ece8e8;
+  background-color: #83c5be;
   min-height: 100vh;
   width: 100vw;
 }
@@ -20,7 +20,7 @@ html {
   margin-right: 28px;
   font-family: bitter;
   font-weight: 800;
-  font-size: 40;
+  font-size: 40px;
   text-decoration: none;
   color: black;
 }
@@ -45,7 +45,7 @@ h1 {
 .button1 {
   /* align-items: flex-start; */
   /* background-clip: border-box; */
-  background-color: rgb(25, 25, 25);
+  background-color: #264653;
   background-image: none;
   background-origin: padding-box;
   background-position-x: 0%;
@@ -121,5 +121,30 @@ h1 {
   text-align: center;
 }
 .landingimage {
-  max-height: 550px;
+  width: 63.333vh;
+  height: 95vh;
+}
+/* @media (max-device-width: 480px) {
+  .landingimage {
+    width: 100%;
+    max-height: unset;
+  }
+} */
+
+@media (orientation: portrait) {
+  .landingimage {
+    /* width: 63.333vh;
+    height: 95vh; */
+    width: 100%;
+    height: auto;
+  }
+  .navigation a {
+    font-size: 28px;
+  }
+}
+@media (orientation: landscape) {
+  /* .landingimage {
+    width: 33.3333333333vh;
+    height: 50vh;
+  } */
 }
