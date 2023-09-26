@@ -9,13 +9,18 @@
   <body>
     <div class="overallwrapper">
       <nav class="navigation">
-        <a class="navlink" href="/about">about</a>
+        <!-- <a class="navlink" href="/about">about</a>
         <a class="navlink" href="/work">work</a>
-        <a class="navlink" href="/music"> music</a>
-        <a class="navlink" href="/contact"> contact</a>
+        <a class="navlink" href="/music"> music</a> -->
+        <a
+          class="navlink {{ 'navlink--active' if 'contact' in page.url }}"
+          href="/contact"
+        >
+          contact</a
+        >
       </nav>
 
-      <section class="centredcontent">{{ content }}</section>
+      <section class="centredcontent">{{ content | safe }}</section>
     </div>
   </body>
 </html>

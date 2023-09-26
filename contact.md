@@ -1,5 +1,5 @@
 ---
-layout: layout
+layout: layout.njk
 ---
 
 <form name="contact" netlify>
