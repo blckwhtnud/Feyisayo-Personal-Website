@@ -16,7 +16,7 @@ html {
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.navigation a {
+.navlink {
   margin-right: 28px;
   font-family: bitter;
   font-weight: 800;
@@ -24,6 +24,10 @@ html {
   text-decoration: none;
   color: black;
 }
+.navlink--active {
+  text-decoration: underline;
+}
+
 .navigation a:last-child {
   margin-right: 0;
 }
@@ -69,14 +73,14 @@ h1 {
   border-top-style: solid;
   border-top-width: 1px;
   box-sizing: border-box;
-  color: rgb(255, 255, 255);
+  color: black;
   cursor: default;
   display: inline-block;
   fill: rgb(255, 255, 255);
   font-feature-settings: normal;
   font-kerning: auto;
   font-optical-sizing: auto;
-  font-size: 16px;
+  font-size: 25px;
   font-stretch: 100%;
   font-style: normal;
   font-variant-alternates: normal;
@@ -85,7 +89,7 @@ h1 {
   font-variant-ligatures: normal;
   font-variant-numeric: normal;
   font-variation-settings: normal;
-  font-weight: 400;
+  font-weight: 700;
   height: 55px;
   letter-spacing: normal;
   line-height: 24px;
