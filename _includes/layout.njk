@@ -9,9 +9,22 @@
   <body>
     <div class="overallwrapper">
       <nav class="navigation">
-        <a class="navlink" href="/home">home</a>
-        <!-- <a class="navlink" href="/about">about</a>
-        <a class="navlink" href="/work"> work</a> -->
+        <a
+          class="navlink {{ 'navlink--active' if 'home' in page.url }}"
+          href="/home"
+          >home</a
+        >
+        <a
+          class="navlink {{ 'navlink--active' if 'about' in page.url }}"
+          href="/about"
+          >about</a
+        >
+        <a
+          class="navlink {{ 'navlink--active' if 'work' in page.url }}"
+          href="/work"
+        >
+          work</a
+        >
         <a
           class="navlink {{ 'navlink--active' if 'contact' in page.url }}"
           href="/contact"
