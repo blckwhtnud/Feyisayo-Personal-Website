@@ -2,6 +2,7 @@
 layout: layout.njk
 ---
 
+<div class = "centeredcontent" >
 <img
   class="landingimage"
   src="/Images/websitelandingpageImage.png"
@@ -15,4 +16,6 @@ layout: layout.njk
         8:28
       </h2> -->
 
-<button class="button1">Learn More</button>
+<a href="/about" class="button button1">Learn More</a>
+
+</div>

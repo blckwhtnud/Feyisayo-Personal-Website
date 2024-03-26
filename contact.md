@@ -2,34 +2,25 @@
 layout: layout.njk
 ---
 
-<section class="centredcontent">
-<form name="contact" netlify>
-<div class="coll-50">
+<section class="form-container">
+<form class="contact-form" name="contact" netlify>
 
-<p>
-<label>FIRST NAME
-<input size="40" type="text" name="firstname" /></label>
-</p>
-</div>
-</div>
-<p>
-<label> LAST NAME
-<input size="40" type="text" name="lastname" /></label>
-</p>
-<p>
-<label>EMAIL
-<input size="40" type="text" email="email" /></label>
-</p>
-<p>
-<label>PHONE NUMBER
-<input  size="40" type="text" phonenumber="phonenumber" /></label>
-</p>
-<p>
-<label>HOW CAN I BE OF SERVICE
-<input size="40" type="text" message="message" /></label>
-</p>
+<label>first name
+<textarea rows="2"  message="message" ></textarea></label>
 
-<button type="submit" class="button1">SUBMIT</button>
+<label> last name
+<textarea rows="2"  message="message" ></textarea></label>
+
+<label>email
+<textarea rows="2"  message="message" ></textarea></label>
+
+<label>phone number
+<textarea rows="2"  message="message" ></textarea></label>
+
+<label>how can i help?
+<textarea rows="7"  message="message" ></textarea></label>
+
+<button type="submit" class="button">Submit</button>
 
 </form>
 </section>
