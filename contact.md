@@ -1,7 +1,3 @@
----
-layout: layout.njk
----
-
 <section class="form-container">
 <form class="contact-form" name="contact" netlify>
 

@@ -1,7 +1,3 @@
----
-layout: layout.njk
----
-
 <div class="header">
   <h2>Founder | Speaker | Product Manager | STEM Advocate | Community Developer</h2>
 

@@ -1,7 +1,3 @@
----
-layout: layout
----
-
 <style>
   .timeline {
     position: relative;
