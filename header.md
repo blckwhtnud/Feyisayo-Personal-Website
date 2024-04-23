@@ -1,7 +1,3 @@
----
-layout: layout.njk
----
-
 <div class = "centeredcontent" >
 <img
   class="landingimage"
