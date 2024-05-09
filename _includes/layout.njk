@@ -11,29 +11,29 @@
       <nav class="navigation">
         <a
           class="navlink {{ 'navlink--active' if 'home' in page.url }}"
-          href="/"
+          href="#"
           >home</a
         >
         <a
           class="navlink {{ 'navlink--active' if 'about' in page.url }}"
-          href="/about"
+          href="#about"
           >about</a
         >
         <a
           class="navlink {{ 'navlink--active' if 'work' in page.url }}"
-          href="/work"
+          href="#work"
         >
           work</a
         >
         <a
           class="navlink {{ 'navlink--active' if 'contact' in page.url }}"
-          href="/contact"
+          href="#contact"
         >
           contact</a
         >
       </nav>
 
-      <section class="" style="margin-top: 4em;">{{ content | safe }}</section>
+      <section class="" style="margin-top: 1em;">{{ content | safe }}</section>
     </div>
   </body>
 </html>
