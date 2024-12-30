@@ -1,23 +1,28 @@
 <style>
   html {
     scroll-behavior: smooth;
+    box-sizing: border-box;
   }
 
   .timeline {
     position: relative;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1em;
   }
+
   .event {
+    --spacer: 3em;
+    --event-width: calc(40%);
+    position: relative;
+    left: calc(50% - var(--event-width) - (2 * var(--spacer)));
+    width: var(--event-width);
     min-height: 10em;
-    display: flex;
-    flex-direction: column;
     text-align: right;
+    margin: var(--spacer);
+    padding: 1em;
+    background-color: wheat;
   }
+
   .event:nth-child(2n) {
-    /* grid-column: 2/-1; */
-    justify-content: flex-end;
+    left: 50%;
     text-align: left;
   }
   .timeline-line {
@@ -26,31 +31,65 @@
     left: 50%;
     bottom: 0;
     width: 4px;
-    background-color: red;
+    background-color: black;
+  }
+
+  @media screen and (max-width: 800px) {
+    .e .event:nth-child(2n) {
+      left: 0%;
+      text-align: left;
+    }
   }
 </style>
 
 <h1 class="header" id="work">WORK</h1>
 <div class="timeline">
   <div class="event">
-    <h2>2021</h2>
-    <p>Design complete, user testing of prototype</p>
+    <h2>2021: Reality of Life</h2>
+    <p>
+      Graduated—truly God’s grace! Landed a summer role at RBC, a permanent one
+      at Geotab and working part-time at a non-for profit. Knowing where i was
+      is certainly not my permanent destination but grateful and embracing the
+      reality that I can truly do anything with my life....MAD
+    </p>
   </div>
   <div class="event">
-    <h2>2021</h2>
-    <p>Design complete, user testing of prototype</p>
+    <h2>2022: Breaking Ground</h2>
+    <p>
+      Anxious about how long it was taking to reach my goals, but determined to
+      keep going, I dove into community and tech entrepreneurship, networking
+      extensively. I lacked clarity or intention at first, but it was exciting,
+      and I was learning so much that I kept pushing forward, believing
+      something great would come of it. By the end of the year i started a job
+      at Bell Canada. Still not the final destination but a step forward so i
+      was grateful.
+    </p>
   </div>
   <div class="event">
-    <h2>2021</h2>
-    <p>Design complete, user testing of prototype</p>
+    <h2>2023: Just Do It</h2>
+    <p>
+      There was an itch to do more—beyond just working somewhere. I started
+      questioning what I truly wanted and reevaluating things I thought I always
+      liked or desired. I lost passion for my job and felt a deep urge to create
+      something meaningful. This time, it felt real—I could just start and see
+      where it led. So I did, and
+      <a href="https://www.owambe.ca/">Owambe Technologies Inc</a> was born.
+    </p>
   </div>
   <div class="event">
-    <h2>2021</h2>
-    <p>Design complete, user testing of prototype</p>
+    <h2>2024: Expansion</h2>
+    <p>
+      This year brought the reality of adulthood—the duality of things not going
+      as planned but also going great. Faith was my anchor, and 'all things work
+      for my good' became my motto. I learned so much about life, people, and
+      myself. Owambe grew, solidifying my desire to create, and I accepted that
+      maybe I don’t want the life I once envisioned. I want better and more
+      aligned with me and who God made me.
+    </p>
   </div>
   <div class="event">
-    <h2>2021</h2>
-    <p>Design complete, user testing of prototype</p>
+    <h2>2025: Discovery</h2>
+    <p>Working Building, Believing! Check back December 2025 for a summary.</p>
   </div>
 
   <div class="timeline-line">&nbsp;</div>
